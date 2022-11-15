@@ -113,8 +113,14 @@
 }
 
 .loginPage a{
-  text-decoration: none;
+  text-decoration: none; 
 }
+
+.loginPage{
+  cursor: pointer;
+
+}
+
 
 .sellMenu {
   position: relative;

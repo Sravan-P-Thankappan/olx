@@ -1,12 +1,14 @@
 .signupParentDiv {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: max-content;
-    padding: 10px;
+    padding: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    width: 25rem;
+    box-shadow: 5px 10px 8px 10px #efecec;
   }
   
   .signupParentDiv .input {
@@ -14,10 +16,18 @@
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    margin-left: 70px;
+  }
+
+  .signupParentDiv label{
+      
+    margin-left: 70px;
+
   }
   
   .signupParentDiv button {
     width: 100%;
+    /* width: 300px; */
     height: 48px;
     /* border-color: transparent; */
     background-color: #002f34;
